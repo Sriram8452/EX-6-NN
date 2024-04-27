@@ -33,6 +33,7 @@ Step 11:Plot the error convergence during training using plt.plot() and plt.show
 <H3>Program: </H3>
 
 DEVELOPED BY: Sriram G
+
 REGISTER NUMBER: 212222230149
 
 ```
@@ -46,6 +47,7 @@ import matplotlib.pyplot as plt
 ```
 ```
 data = pd.read_csv('heart.csv')
+```
 ```
 X = data.iloc[:, :-1].values
 y = data.iloc[:, -1].values
